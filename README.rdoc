@@ -1,3 +1,4 @@
 = README
+[![Build Status](https://travis-ci.org/shostakovich/watertracker.png)](https://travis-ci.org/shostakovich/watertracker)
 
 An app that helps me to monitor our households water consumption
