@@ -1,11 +1,15 @@
 %h1 Recent Measurements
 
-%table
-  %thead
-    %tr
-      %th Hot Water
+- if @measurements.empty?
+  %p.notice
+    No recent measurements were taken
+- else
+  %table
+    %thead
+      %tr
+        %th Hot Water
       %th Cold Water
-  %tbody
+    %tbody
     - @measurements.each do |m|
       %tr
         %td
