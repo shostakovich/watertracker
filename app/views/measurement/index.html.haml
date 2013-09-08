@@ -1,0 +1,14 @@
+%h1 Recent Measurements
+
+%table
+  %thead
+    %tr
+      %th Hot Water
+      %th Cold Water
+  %tbody
+    - @measurements.each do |m|
+      %tr
+        %td
+          = m.hot_water
+        %td
+          = m.cold_water
